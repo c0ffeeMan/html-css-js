@@ -1,0 +1,258 @@
+body {
+    width: 65%;
+    min-width: 640px;
+    margin: 10px auto;
+    padding: 30px;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+a {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin: 10px 2px;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.about_image {
+    border: unset;
+
+}
+p {
+    text-indent: 37px;
+    text-transform: capitalize;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    text-shadow: 5px 3px 3px #bbb;
+}
+
+.bord-radius {
+    border-radius: 20px 3px;
+    box-shadow: 10px 5px 3px #bbb;
+    opacity: 1;
+}
+
+.shadow {
+    font-weight: bold;
+    text-shadow: 5px 3px 3px #bbb;
+}
+
+.justify {
+    text-align: justify;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.justify:first-letter {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: outside;
+    color: #999;
+    font-size: 14px;
+}
+
+.list-style li:first-letter {
+    color: gray;
+    font-weight: bold;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+    color: #999;
+    font-size: 14px;
+}
+
+/* Table */
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #777;
+}
+
+.table th {
+    padding: 5px 10px 5px 10px;
+    text-align: left;
+    color: #0025a5;
+}
+
+.table td {
+    padding: 5px 10px; 
+    border: 1px dashed #777;
+            
+}
+
+.table tfoot {
+    text-align: right;
+}
+
+/* Bloks */
+
+.page-block {
+    width: 600px;
+    height: 100%;
+    margin: 30px auto 0px auto;
+    background: url(../img/ramka-gold.png) center no-repeat;
+    background-size: 100% 100%;
+    padding: 30px;
+    
+}
+.content{
+    padding: 0px 40px 40px 40px;
+    
+}
+
+.text-blue {
+    margin: 10px 5px 10px 5px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #0025a5;
+}
+/* Footer */
+
+.footer {
+    font-size: 10px;
+    display: grid;
+    place-items: center;
+/*    background-image: linear-gradient(#fff, #ccc);*/
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Form */
+
+.form {
+    background-color: #f0f0f0;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+.form-group {
+    padding: 0px 10px 5px 10px
+}
+
+.form-input {
+    display: block;
+    padding: 3px;
+    width: 150px;
+}
+
+.form-textarea {
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    max-height: 150px;
+    resize: vertical;
+}
+
+.select-city {
+    display: block;
+}
+
+.input-checkbox {
+    padding: 5px 10px ;
+}
+
+/* Link */
+
+.link {
+    color: #0092ed;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: #ad28d4;
+}
+
+.link:hover {
+    color: #5dc0ff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link:active {
+    color: #ff6868;
+}
+
+.btn {
+    background-color: #e1e1e1;
+    border: 1px solid #bbb;
+    padding: 3px 12px;
+    transition: background 0.2s linear;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border: 1px solid #2a9ce5;
+    cursor: pointer;
+    transition: background 0.2s linear;
+}
+
+.btn:active {
+    background-color: rgba(182, 227, 255, 0.5);
+    transition: background 0.2s linear;
+}
+
+.btn:disabled {
+    background-color: #f1f1f1;
+    color: #ccc;
+    border: 1px solid #ccc;
+    cursor: not-allowed;
+}
+
+/* Flex */
+
+.page-flex {
+    width: 600px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.header-flex {
+    background-color: #eee;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-flex {
+    display: flex;
+}
+
+.sidebar-flex {
+    background-color: #ccc;
+    padding: 20px;
+    width: 30%;
+}
+
+.main-flex {
+    background-color: #bbb;
+    padding: 20px;
+    width: 70%;
+    height: 500px;
+}
+
+.footer-flex {
+    background-color: #aaa;
+    padding: 5px;
+}
+
+

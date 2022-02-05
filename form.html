@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Работа с формами</title>
+    </head>
+    <body>
+        <a class="link" href="index.html">Главная</a>
+        <div class="form">
+
+            <h1 class="title">Формы</h1>            
+            
+            <form action="/" method="post">
+                <fieldset>
+                    <legend>Контактная информация</legend>
+                    <div class="form-group">
+                        <label for="input_name">*Ваше имя</label>
+                        <input class="form-input" type="text" name="name" placeholder="" id="input_name">
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-input" type="text" name="email" placeholder="*Ваш e-mail">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-input" type="tel" name="tel" placeholder="*Ваш телефон">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Пароль</legend>
+                    <div class="form-group">
+                        <input class="form-input" type="password" name="password" placeholder="*Придумайте пароль">
+                    </div>
+                </fieldset>
+                <div class="form-group">
+                    <label for="textarea">Не обязательно</label>
+                    <textarea class="form-textarea" name="text" placeholder="О Вас" id="textarea"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Город</label>
+                    <select class="select-city" name="city" placeholder="Город">
+                        <option></option>
+                        <option>Москва</option>
+                        <option>Санкт-петербург</option>
+                        <option>Екатеринбург</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="male">Муж.</label>
+                    <input class="form-radio" type="radio" name="chose_male" id="male" checked>
+                    <label for="female">Жен.</label>
+                    <input class="form-radio" type="radio" name="chose_male" id="female">
+                </div>
+                <div class="form-group">
+                    <label for="input_file">Фото</label>
+                    <input class="form-photo" type="file" name="photo" id="input_file">
+                </div>
+                <div class="input-checkbox">
+                    <input type="checkbox" name="agree"  id="checkbox_name">
+                    <label for="checkbox_name">*С условиями согласен*(а)</label>
+                </div>
+                <div class="form-group">
+                    <button class="btn" type="submit" disabled>Отпарвить</button>
+                    <button class="btn" type="reset">Очистить</button>
+                    <button class="btn" type="button">Кнопка</button>
+                </div>
+            </form>
+        
+        </div>
+        
+    </body>
+</html>
